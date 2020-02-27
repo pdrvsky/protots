@@ -1,6 +1,6 @@
 import Stream from 'ts-stream'
 
-export interface RouteGuideService {
+export interface RouteGuide {
 getFeature (point: Point): Feature
 listFeatures (rectangle: Rectangle): Stream<Feature>
 recordRoute (pointStream: Stream<Point>): RouteSummary
@@ -27,5 +27,4 @@ pointCount?: number
 featureCount?: number
 distance?: number
 elapsedTime?: number
-}
 }

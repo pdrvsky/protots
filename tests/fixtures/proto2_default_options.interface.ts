@@ -20,4 +20,3 @@ featureCount: number
 distance: number
 elapsedTime: number
 }
-}

@@ -58,4 +58,3 @@ distance: number
   // The duration of the traversal in seconds.
 elapsedTime: number
 }
-}

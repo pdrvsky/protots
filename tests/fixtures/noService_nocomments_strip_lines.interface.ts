@@ -1,5 +1,6 @@
 
 
+
 export namespace Routeguide {
 
 export interface Point {

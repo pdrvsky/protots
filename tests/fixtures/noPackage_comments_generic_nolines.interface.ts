@@ -14,7 +14,7 @@ import Stream from 'ts-stream'
 // See the License for the specific language governing permissions and
 // limitations under the License.
 // Interface exported by the server.
-export interface RouteGuideService {
+export interface RouteGuide {
   // A simple RPC.
   //
   // Obtains the feature at a given position.
@@ -86,5 +86,4 @@ featureCount?: number
 distance?: number
   // The duration of the traversal in seconds.
 elapsedTime?: number
-}
 }

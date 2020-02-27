@@ -1,5 +1,6 @@
 
 
+
 export interface Point {
 latitude: number
 longitude: number
@@ -31,5 +32,4 @@ featureCount: number
 distance: number
 
 elapsedTime: number
-}
 }

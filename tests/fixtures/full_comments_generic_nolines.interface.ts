@@ -15,7 +15,7 @@ import Stream from 'ts-stream'
 // limitations under the License.
 export namespace Routeguide {
 // Interface exported by the server.
-export interface RouteGuideService {
+export interface RouteGuide {
   // A simple RPC.
   //
   // Obtains the feature at a given position.

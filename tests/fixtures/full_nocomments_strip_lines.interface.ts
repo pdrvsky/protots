@@ -1,9 +1,14 @@
 
 
 
+
+
+
+
+
 export namespace Routeguide {
 
-export interface RouteGuideService {
+export interface RouteGuide {
 getFeature (point: Point): Feature
 
 listFeatures (rectangle: Rectangle): Feature

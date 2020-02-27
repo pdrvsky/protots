@@ -1,6 +1,7 @@
 
 
-export interface RouteGuideService {
+
+export interface RouteGuide {
 getFeature (point: Point): Feature
 
 listFeatures (rectangle: Rectangle): Feature
@@ -41,5 +42,4 @@ featureCount?: number
 distance?: number
 
 elapsedTime?: number
-}
 }
